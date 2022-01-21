@@ -20,6 +20,7 @@
 		이름(name): <input type="text" name="name" value=""> <br>
 		핸드폰(hp): <input type="text" name="hp" value=""> <br>
 		회사(company): <input type="text" name="company" value=""> <br>
+		<input type="hidden" name="personId" value="${param.personId}">
 		<button type="submit">수정</button>
 	</form>
 	
