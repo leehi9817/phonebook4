@@ -54,7 +54,7 @@ public class PhoneDao {
 	//1명 정보 가져오기
 	public PersonVo getPerson(int personId) {
 		System.out.println("PhoneDao.getPerson()");
-		PersonVo personVo = sqlSession.selectOne("phonebook.get", personId);
+		PersonVo personVo = sqlSession.selectOne("phonebook.selectOne", personId);
 		return personVo;
 	}
 }
