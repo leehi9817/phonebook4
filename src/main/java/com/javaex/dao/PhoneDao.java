@@ -32,6 +32,7 @@ public class PhoneDao {
 		System.out.println("PhoneDao.personInsert()");
 		int count = sqlSession.insert("phonebook.insert", personVo);
 		System.out.println(count + "건 저장");
+		
 		return count;
 	}
 	
